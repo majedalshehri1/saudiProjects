@@ -1,0 +1,64 @@
+<!-- Majed Alshehri 2142466 -->
+<!-- Bader Alghamdi 2142471 -->
+<!-- Alhussain Essa 2143991 -->
+<!-- Ibrahim Alammary 2142267 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/register.js" defer></script>
+</head>
+<body>
+    <section class="container-log">
+        <div class="login-page">
+            <div class="content-log">
+                <div class="titleLogin">
+                    <h2>انشاء حساب جديد</h2>
+                    <p> لديك حساب مسبقا؟ اضغط <span><a href="login.html">هنا</a></span></p>
+                </div>
+                <form method="POST" id="form" name="form" action="/process">
+                <div id="fristName">
+                    <label>الاسم الاول </label>
+                    <input type="text" name="fname" id="fname">
+                </div>
+                <div id="lastName">
+                    <label>الاسم الاخير </label>
+                    <input type="text" name="lname" id="lname">
+                </div>
+                <div id="phoneNumber">
+                    <label>رقم الجوال</label>
+                    <input type="tel" name="mobile" id="mobile" placeholder="05xxxxxxxx" >
+                </div>
+                <div id="email">
+                    <label> الايميل </label>
+                    <input type="email" name="email" id="email-reg" placeholder="m@uj.edu.sa">
+                </div>
+                <div id="gender">
+                    <label> الجنس :</label>
+                    <label for="male">ذكر</label>
+                    <input type="radio" id="male" name="gender" value="ذكر">
+                    <label for="female">انثى</label>
+                    <input type="radio" id="female" name="gender" value="انثى">
+
+                </div>
+                <div id="password">
+                    <label>كلمة المرور</label>
+                    <input type="password" name="password" id="password-reg" 
+                    minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+                </div>
+                <div class="btn-log-page">
+                    <p id="msg-error"></p>
+                        <button id="submit-btn" type="submit">أنشاء</button>
+                </div>
+            </form>
+            </div>
+        </div>
+        <div class="img-log-page">
+            <img src="media/imageLogin-removebg-preview.png" alt=" saudi arabia map">
+        </div>
+    </section>
+</body>
+</html>

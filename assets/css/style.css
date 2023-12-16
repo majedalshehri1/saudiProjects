@@ -1,0 +1,695 @@
+/* Majed Alshehri 2142466
+Bader Alghamdi 2142471
+Alhussain Essa 2143991
+Ibrahim Alammary 2142267 */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600&family=Montserrat:wght@300&family=Tajawal:wght@200;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+}
+
+
+/* Landing Page ( Index ) */
+
+.container{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #11047160 10%,#030129fd 80%);
+}
+
+header > .vid-home{
+    object-fit: cover;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}
+header .navbar {
+    margin: auto;
+    direction: rtl;
+    padding: 2rem;
+}
+
+header .navbar nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1024px;
+    margin: auto;
+}
+
+
+.logo-img{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-img a {
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    color: white;
+    line-height: 1.1;
+    padding: auto;
+}
+
+header .navbar nav img {
+    width: 4rem;
+}
+
+header .navbar nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+header .navbar nav ul li a {
+    color: silver;
+    text-decoration: none;
+    transition: 0.2s;
+    padding: 2.5rem;
+} 
+header .navbar nav ul a:hover{
+color: whitesmoke;
+border-bottom: 2px solid #ffffff ;
+}
+
+.icon-user{
+    width: 2rem;
+}
+.btnLogin{
+    text-decoration: none;
+}
+.btn-login{
+    padding: .5rem 1.7rem;
+    background-color:#3b3b7d40;
+    border: 1px solid rgba(192, 192, 192, 0.61);
+    border-radius: .2rem;
+    font-family: 'Cairo', sans-serif;
+    font-size: .8rem;
+    font-weight: bold;
+    color: whitesmoke;
+    transition: .5s;
+    cursor: pointer;
+}
+.btn-login:hover{
+    background-color:#3b3b7dcb ;
+}
+.btn-login a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+nav .burger-icon{
+    display: none;
+}
+hr{
+    width: 75vw;
+    margin: auto;
+    opacity: 0.2;
+}
+
+.header-content {
+    max-width: 1024px;
+    padding: 2rem;
+    padding-top: 9rem;
+    margin: auto;
+}
+
+
+
+.header-content .text-content {
+    color: white;
+    direction: rtl;
+    line-height: 1.5;
+    padding-top: 90px;
+}
+
+
+
+.header-content .text-content h1 {
+    margin-bottom: 15px;
+    line-height: 0.8;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.header-content .text-content p {
+    line-height: 1.6;
+}
+
+.button {
+    margin-top: 3rem;
+
+}
+
+.btn {
+    color: white;
+    padding: 0px 20px;
+    margin: 0 3px;
+    font-size: 14px;
+    text-decoration: none;
+    border: 1px solid;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background-color: #7b75ac77;
+}
+.cotainer-goals{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    direction: rtl;
+    width: 100%;
+    background-color: #030129fd;
+    margin: auto;
+    color: whitesmoke;
+}
+.goal{
+    padding: 3.9rem;
+    font-size: .7rem;
+}
+.goal span{
+    opacity: .5;
+}
+.goal i{
+    font-size: 2rem;
+}
+.vision-us svg{
+    width: 2rem;
+}
+
+/* // Landing Page ( Index ) // */
+
+/* Second Section ( Index )  */
+    .container-sec2{
+        height: 100vh;
+        direction: rtl;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .container-sec2 .text-box{
+        width: 35rem;
+        font-size: 1.2rem;
+    }
+    .container-sec2 img{
+        border-radius: 2rem;
+        width: 30rem;
+    }
+/* // Second Section ( Index ) //  */
+
+
+
+
+
+
+/* =========================== About Us ======================= */
+.about-container{
+    height: 100vh;
+}
+.about-video{
+    height: 100vh;
+}
+.about .text-content h1 {
+    margin-bottom: 3rem;
+}
+.text-content p a{
+    gap: 2rem;
+    padding: .5rem;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.team{
+    direction: rtl;
+    margin-bottom:5rem;
+}
+.title-section > h1{
+    text-align: center;
+    margin-top: 3rem;
+}
+.content-card{
+    text-align: center;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0px 1px 4px 1px #929292;
+    width: 35rem;
+    border-radius: 1rem;
+    color: black;
+    padding: 1rem;
+    transition: 0.5s;
+    cursor: pointer;
+    margin: 1rem 1rem;
+
+}
+.card:hover{
+    background-color: #090B3B;
+    color: whitesmoke;
+}
+.card .img-card {
+    background-color: #1f2937;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 8.875rem;
+    width: 8.875rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.card .img-card img{
+    width: 9rem;
+}
+.icon-soial a{
+    color: black;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.card:hover .icon-soial a{
+    color: whitesmoke;
+}
+
+ /* ======================= Projects ====================== */
+
+ .project-section1{
+    display: flex;
+    background-position: center;
+    width: 100%;
+    height: 150vh;
+    background-image: linear-gradient(to bottom, #11047160 40%,#030129fd 95%);
+}
+header video{
+    position:absolute;
+    object-fit: cover;
+    z-index: -1;
+    width:100%;
+    height: 150vh ;
+}
+
+.project-section1 .project-content {
+    display: flex;
+    height:145vh;
+    width: 97vw;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ .shape-line{
+    z-index: 0; 
+    width: 423px;
+    height: 365px;
+    border-radius: 100px 100px 100px 240px;
+    box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 2);
+   
+} 
+.shape-line img{
+    z-index: 0;
+    width: 423px;
+    height: 365px;
+    border-radius: 100px 100px 100px 240px;
+    opacity: 0.9;
+}
+
+.project-content .text-content {
+    width: 45vw;
+    color: white;
+    direction: rtl;
+    line-height: 3;    
+}
+
+.project-content .text-content h1 {
+    line-height: 0.8;
+    font-size: 60px;    
+    font-weight: 600;
+}
+.project-content .text-content h2 {
+    color: #c0b7eb;
+    font-size: 30px;
+}
+.project-content .text-content p {
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+
+/*===========      Red sea project     ===========*/
+.project-section2{
+    display: flex;
+    background-position: center;
+    width: 100%;
+    height: 150vh;
+    background-image: linear-gradient(to top, #11047160 40%,#030129fd 95%);
+}
+.project-section2 .project-container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.project-section2 .project-content {
+    display: flex;
+    height:150vh;
+    width: 97vw;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+
+/*===========     Cube project     ===========*/
+.project-section3{
+    display: flex;
+    background-position: center;
+    width: 100%;
+    height: 150vh;
+    background-image: linear-gradient(to bottom, #11047160 40%,#030129fd 95%);
+}
+.project-section3 .project-container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.project-section3 .project-content {
+    display: flex;
+    height:150vh;
+    width: 97vw;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* ===================== Contact ======================= */
+.text-content-contact h4{
+    color: silver;
+    opacity: .7;
+    padding-top: 1rem;
+}
+.text-content-contact h2{
+    font-size: 3rem;
+}
+.contact-container{
+    height: 80vh;
+}
+.contact-container video{
+    height: 80vh;
+}
+.contact-us{
+    direction: rtl;
+}
+.title-contact{
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    margin: auto;
+    font-size: 1.3rem;
+    color: black;
+    text-align: center;
+}
+.title-contact span{
+    color: rgba(119, 119, 119, 0.827);
+    font-size: 1rem;
+}
+.content-contact-us{
+    margin: auto;
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form {
+    padding: 3rem;
+    width: 100%;
+}
+.inputBox input,textarea{
+    font-family: 'Cairo', sans-serif;
+    width: 100%;
+    padding: 1rem ;
+    margin: .5rem 0;
+    border: .02rem solid rgba(0, 0, 0, 0.544);
+    outline: none;
+    font-size: 1rem;
+    border-radius: .2rem;
+}
+.contact-form button{
+    background-color:#3b3b7d ;
+    color: whitesmoke;
+    font-family: 'Cairo', sans-serif;
+    border:none;
+    outline: none;
+    padding: .4rem 2rem;
+    margin: 2rem .5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .5s;
+}
+.contact-form button:hover{
+    background-color: #26264e;
+}
+.contact-form button:active{
+    background-color:rgb(84, 0, 84) ;
+}
+
+
+/* =================== LOGIN =====================*/
+
+.container-log{
+    direction: rtl;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-page{
+    width: 50%;
+    height: 100vh;
+}
+.content-log{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+.titleLogin{
+    margin-bottom: 2rem;
+}
+.titleLogin p span a{
+    text-decoration: none;
+    color: #3b3b7d;
+    transition: .5s;
+}
+.titleLogin p span a:hover{
+    color: #26264e;
+}
+.content-log h2{
+    text-align: center;
+}
+.content-log p{
+    font-size: .9rem;
+    text-align: center;
+}
+#email,#password,#fristName,#lastName,#gender,#phoneNumber{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+#gender {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+#phoneNumber select{
+    height: 2rem;
+    width: 5rem;
+}
+.content-log input{
+    font-family: 'Cairo', sans-serif;
+    padding: .5rem ;
+    margin: .5rem 0;
+    border: .02rem solid rgba(0, 0, 0, 0.544);
+    outline: none;
+    font-size: .9rem;
+    border-radius: .2rem;
+    background-color: rgba(192, 192, 192, 0.068);
+}
+.btn-log-page{
+    margin: 0 13rem;
+}
+.btn-log-page p {
+    text-align: right;
+}
+#msg-error{
+    color: red;
+}
+.btn-log-page button{
+    background-color:#3b3b7d ;
+    color: whitesmoke;
+    font-family: 'Cairo', sans-serif;
+    border:none;
+    outline: none;
+    padding: .4rem 2rem;
+    margin: 2rem .5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .5s;
+}
+.btn-log-page button:hover{
+    background-color: #26264e;
+}
+.btn-log-page button:active{
+    background-color:rgb(84, 0, 84) ;
+}
+.img-log-page {
+    margin: auto;
+}
+.img-log-page img{
+    width: 40rem;
+}
+
+
+/*==================== FOOTER ====================*/
+
+footer {
+    background-color: #090B3B;
+    padding: 2rem;
+}
+hr{
+    width: 60%;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: whitesmoke;
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+.foot-titles img{
+    width: 4rem;
+}
+.foot-titles ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    direction: rtl;
+}
+.foot-titles ul li{
+    list-style: none;
+}
+.foot-titles ul li a{
+    color: silver;
+    text-decoration: none;
+}
+.foot-titles ul li a:hover{
+    color: white;
+   
+}
+footer p{
+    color: #f5f5f570;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+
+/*==================== MEDIA QUERIES ====================*/
+/* For large devices */
+@media screen and (max-width: 1024px){
+    
+    .inputBox input,textarea{
+        width: 100%;
+    }
+}
+/* For medium devices */
+
+@media screen and (max-width: 768px){
+   
+    header .navbar nav ul {
+        display: none;
+    }
+    nav .burger-icon{
+        display: block;
+    }
+    .header-content .text-content {
+        /* background-color: red; */
+        text-align: center;
+        margin: auto;
+        width: 90%;
+    }
+    .header-content .text-content h1 {
+        line-height: 0.8;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    
+    .header-content .text-content h3{
+        margin-top:1rem;
+    }
+    .container-sec2 img{
+        width: 20rem;
+    }
+    .text-box{
+        margin: 2rem;
+    }
+    .container-log{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .login-page{
+        width: 100%;
+        height: 100vh;
+    }
+    #email,#password,#fristName,#lastName,#gender,#phoneNumber{
+        width: 80%;
+    }
+    .btn-log-page{
+        margin: 0 2.5rem;
+    }
+   
+
+}
+/* For small devices */
+@media screen and (max-width: 430px) {
+
+    header .navbar nav ul {
+        display: none;
+    }
+    
+    nav .burger-icon{
+        display: block;
+    }
+    
+    .header-content .text-content h3{
+        margin-top:1rem;
+    } 
+    .container-sec2 img{
+        width: 15rem;
+    }
+    .footer-content{
+        display: none;
+    }
+}
+
+
+  
+

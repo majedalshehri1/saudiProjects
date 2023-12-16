@@ -1,0 +1,46 @@
+<!-- Majed Alshehri 2142466 -->
+<!-- Bader Alghamdi 2142471 -->
+<!-- Alhussain Essa 2143991 -->
+<!-- Ibrahim Alammary 2142267 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/login.js" defer></script>
+</head>
+<body>
+    <section class="container-log">
+        <div class="login-page">
+            <div class="content-log">
+                <div class="titleLogin">
+
+                    <h2>تسجيل الدخول الى حسابك</h2>
+                    <p>ليس لديك حساب؟ <span> <a href="register.html">انشئ حسابا</a></span></p>
+                </div>
+                <form method="POST" id="form" name="form" action="/login" >
+                    <div id="email">
+                        <label> الايميل</label>
+                        <input type="email" name="email" id="email-login" placeholder="M@uj.edu.sa"required>
+                    </div>
+                    <div id="password">
+                        <label>كلمة المرور</label>
+                        <input type="password" name="password" id="password-login" 
+                        minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+                    </div>
+                    <div class="btn-log-page">
+                        <p id="msg-error"></p>
+                        <button id="loginBtn" type="submit">أرسال</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="img-log-page">
+            <img src="media/imageLogin-removebg-preview.png" alt="saudi arabia map ">
+        </div>
+    </section>
+</body>
+</html>
