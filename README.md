@@ -5,7 +5,7 @@ Welcome to the SaudiProjects! 🚀
 ## Overview
 **SaudiProjects** serves as a digital gateway to explore the future of tourism in Saudi Arabia. Developed by university students, this platform demonstrates how technology can aid in the promotion of tourism.
 
-![Local Image](/Users/majedalshreri/Documents/University/Web development/Project/devise 1.png)
+![Local Image](/Users/majedalshreri/Documents/University/Webdevelopment/Project/devise1.png)
 
 ## Features 🌟
 - **Project Details**: Each project is detailed with visuals, timelines, and key information. 
